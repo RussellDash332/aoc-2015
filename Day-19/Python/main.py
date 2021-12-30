@@ -1,4 +1,4 @@
-import sys, string, os, re
+import sys
 
 rep = []
 for line in sys.stdin:
