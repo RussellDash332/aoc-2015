@@ -20,4 +20,7 @@ cd Day-$X/C++ && g++ -o mainc main.cpp && ./mainc < ../$X.in && cd ../..
 
 # Haskell
 cd Day-$X/Haskell && runhaskell main.hs && cd ../..
+
+# Rust
+cd Day-$X/Rust && rustc main.rs && ./main < ../$X.in && cd ../..
 ```
